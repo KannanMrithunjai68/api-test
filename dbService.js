@@ -20,7 +20,7 @@ const establishSSHConnection = () => {
         host: 'ec2-3-110-209-83.ap-south-1.compute.amazonaws.com',
         port: 22,
         username: 'ubuntu',
-        privateKey: fs.readFileSync('C:/Users/kanna/.ssh/Production_Test.pem')
+        privateKey: fs.readFileSync('./Production_Test.pem')
     }
 
     const forwardConfig = {
